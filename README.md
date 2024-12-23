@@ -23,8 +23,8 @@ Follow these steps to set up and run the project locally.
 Clone the project from GitHub to your local machine:
 
 ```bash
-git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
+git clone https://github.com/kamlendu08/CodeAnt_frontend.git
+cd CodeAnt_frontend
 ```
 
 ### 2. Install Dependencies
@@ -48,7 +48,7 @@ yarn install
 Start the development server with:
 
 ```bash
-npm start
+npm run dev
 ```
 
 or
@@ -60,18 +60,21 @@ yarn start
 Open your browser and navigate to:
 
 ```plaintext
-http://localhost:3000
+http://localhost:5173
 ```
+### 4. Navigate to Dashboard
+To navigate to Dashboard got to /dashboard route
 
 ---
 
 ## Project Structure
 
 ```
-your-project-name/
+CodeAnt_frontend/
 ├── public/             # Public assets
 ├── src/                # Source files
 │   ├── assets/         # Static images and icons
+│   ├── api/            # Data
 │   ├── components/     # Reusable React components
 │   ├── pages/          # Page-level components
 │   ├── App.js          # Main application file
@@ -89,7 +92,7 @@ your-project-name/
 
 Here are the available scripts for this project:
 
-- **Start Development Server**: `npm start` or `yarn start`
+- **Start Development Server**: `npm run dev`
 - **Build for Production**: `npm run build` or `yarn build`
 - **Test Project**: `npm test` or `yarn test`
 
@@ -149,9 +152,3 @@ This project is licensed under the [MIT License](LICENSE).
 - [Font-Inter](https://fonts.google.com/specimen/Inter)
 
 ---
-
-### Notes
-
-- Replace the repository URL (`https://github.com/your-username/your-project-name.git`) with the actual GitHub repository link.
-- Add specific deployment instructions if you use a CI/CD pipeline or a specific hosting platform.
-
