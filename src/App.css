@@ -1,0 +1,12 @@
+
+.dropdown-container {
+    transition: all 0.05s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0; 
+}
+
+.dropdown-container.open {
+    max-height: 500px;
+    opacity: 1;
+}
