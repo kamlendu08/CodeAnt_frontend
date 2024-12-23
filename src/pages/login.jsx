@@ -7,6 +7,7 @@ export const LoginPage = () => {
             <div className="">
                 <LoginSidebar />
             </div>
+            
             <LoginRight />
         </div>
     </div>

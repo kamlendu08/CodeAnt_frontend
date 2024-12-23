@@ -10,7 +10,7 @@ import sign_out from "../assets/sign_out.svg";
 import { Button } from "./ui/button";
 const Dash_sidebar = () => {
     return (
-        <div className="flex h-screen flex-col justify-between p-4 w-[242px]">
+        <div className="flex h-screen  flex-col justify-between border-r border-[#E9EAEB] p-4 w-[242px]">
             <div className="pl-2">
                 <div className="flex items-center">
                     <div className="w-[28px] h-[31px]">

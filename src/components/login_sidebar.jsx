@@ -6,7 +6,7 @@ import Group8 from '../assets/Group8.svg';
 const LoginSidebar = () => {
     return (
         <div className='bg-white h-full relative hidden lg:block'>
-            <div className='absolute mt-[319px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+            <div className='absolute mt-[350px] left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                 <div className='relative'>
                     <div className='mb-[-12px]'>
                         <Box1 />
@@ -16,7 +16,7 @@ const LoginSidebar = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-[-40px] left-0 w-[260px] h-[319px]">
+            <div className="absolute bottom-[-10px] left-0 w-[260px] h-[319px]">
                 <img src={SubtractImage} alt="Bottom Left" className="w-full h-full" />
             </div>
         </div>

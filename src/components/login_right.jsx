@@ -11,7 +11,7 @@ const LoginRight = () => {
   const [selectedTab, setSelectedTab] = useState("SAAS");
 
   return (
-    <div className="flex justify-center h-full bg-whitebg px-4">
+    <div className="flex justify-center h-full border-l border-[#D8DAE5] bg-whitebg px-4">
       <div className="w-full max-w-[672px]">
         <div className="flex flex-col items-center bg-white h-[574px] mt-24 sm:mt-[130px] pb-8  rounded-[12px] border border-[#D8DAE5]">
           <div className="flex items-center mt-[36px]">
